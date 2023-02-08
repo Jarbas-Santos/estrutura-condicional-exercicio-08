@@ -8,7 +8,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double tax = 0.0;
+        double tax;
         double salary = sc.nextDouble();
 
         if (salary <= 2000.0) {
@@ -30,7 +30,7 @@ public class Main {
         else {
             System.out.printf("R$ %.2f%n", tax);
         }
-                
+
         sc.close();
     }
 }
